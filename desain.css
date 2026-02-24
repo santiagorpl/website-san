@@ -1,0 +1,411 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.hero {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+.button {
+  text-decoration: none;
+  font-family: 'inter', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #6a2ce0;
+  padding: 10px 17px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6a2ce0;
+}
+
+.p {
+  padding-top: 40px;
+  height: 30px;
+  color: #6a2ce0;
+  font-family: 'inter',sans-serif;
+  font-size: 20px;
+
+}
+
+.ulsection {
+  margin-top: -25px;
+}
+
+.h1 {
+  margin-bottom: 10px;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+}
+
+.h3 {
+  margin-top: -8px;
+ font-family: 'inter', sans-serif;
+}
+
+.p1 {
+  font-family: 'inter', sans-serif;
+  color: #9c9c9c;
+}
+.san {
+  height: 300px;
+  width: auto;
+}
+
+.divsection {
+  margin-top: 80px;
+}
+
+.divpng {
+  position: relative;
+  width: 350px;
+}
+
+.divpng img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  height: 500px;
+  width: 450px;
+  left: -60px;
+}
+
+.div2png {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: #6a2ce0;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+}
+
+.nul {
+  margin-top: 35px;
+}
+
+.judul {
+  color: #6a2ce0;
+  padding-left: 50px;
+  font-size: 30px;
+  margin-top: -20px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+.allukuran {
+  margin-top: -30px;
+  padding: 20PX 0PX;
+}
+
+.tentangsaya1 {
+  background-color: rgb(164, 197, 197);
+}
+
+.page2 {
+  padding: 80px 0;
+}
+
+.kontainer {
+  display: flex;
+  justify-content: center;
+  padding: 1px 30px;
+  margin: 20PX;
+  gap: 40px;
+}
+
+.ukuran {
+  background-color: rgb(245, 245, 245);
+  height: 150px;
+  width: 45%;
+  padding: 10px;
+  margin-top: -5;
+  border-radius: 20px;
+  
+}
+
+.ukuran2 {
+  background-color: rgb(245, 245, 245);
+  height: 150px;
+  width: 45%;
+  padding-top: -25px;
+  padding-left: 20px;
+  margin-top: -5;
+  border-radius: 20px;
+}
+  
+
+.font {
+  font-family: sans-serif;
+  color: rgb(59, 59, 59);
+}
+
+.isiukuran2 {  
+  margin-top: -10px;
+}
+
+.portoo {
+  text-align: center;
+  margin: 0;
+  padding: 20px 30px;
+  background-color: rgb(233, 233, 233);
+  height: 900px;
+}
+
+.porto2 {
+  color: #6a2ce0;
+  font-size: 20px;
+  padding: 1px;
+  margin-bottom: 0%;
+}
+
+.porto3 {
+  margin-top: 0%;
+  color: black;
+  font-size: 50px;
+  padding: 1px;
+}
+
+.porto4 {
+  color: #999292;
+  font-family: 'inter', sans-serif;
+  margin-top: -45px;
+  padding: 15px;
+}
+
+.pospolio {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.kalkulator1 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 30px 13px;
+  height: 650px;
+  width: 43%;
+  border-radius: 40px;
+}
+
+.kalku {
+  width: 663px;
+  height: 556px;
+  margin-top: -30px;
+  margin-left: -13px;
+  border-radius: 40px;
+
+}
+
+.koding {
+  width: 646px;
+  height: 410px;
+  padding: 20px;
+  margin-left: -60px;
+  margin-top: -20px;
+  border-radius: 40px;
+}
+
+.layer2 {
+  width: 664;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 650px;
+  width: 43%;
+  border-radius: 40px;
+}
+
+.pendidikan {
+  text-align: center;
+  background-color: rgb(141, 141, 141);
+  margin-top: 40px;
+  padding: 80px 0;
+  height: 580px;
+}
+
+.pendidikan2 {
+  font-family: 'inter', sans-serif;
+  color: #6a2ce0;
+}
+
+.pendidikan3 {
+  font-family: 'inter', sans-serif;
+  margin-top: -16px;
+  font-size: 50px;
+}
+
+.pendidikan4 {
+  margin: -30px;
+  font-family: 'inter', sans-serif;
+color: #c9c9c9;
+}
+
+.imgpendidikan {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  text-align: justify;
+  gap: 40px;
+}
+
+.smp {
+  height: 250px;
+  margin-top: -50px;
+  height: 300px;
+
+}
+.pengalaman {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 40px;
+  height: 580px;
+}
+
+.pengalaman2 {
+  font-size: 23px;
+
+}
+
+.pengalaman3 {
+  font-size: 50px;
+  margin-top: -25;
+}
+
+.pengalaman4 {
+  margin-top: -30;
+}
+
+.kontak {
+  background-color: rgb(196, 196, 196);
+  height: 400px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.kontak3 {
+  margin-top: -34px;
+}
+
+.bulat {
+  
+  display: flex;
+  margin-left: 580px;
+  gap: 20px;
+}
+
+.bulat1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border-radius: 50%;
+}
+
+.telfo {
+  height: 30px;
+  margin-top: -40px;
+  margin-left: -137px;
+}
+
+.kontak {
+  background-color: rgb(177, 177, 177);
+}
+
+.teks1 {
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: 80px;
+  height: 70px;
+  width: 535px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 3px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+.teks2 {
+  
+  width: 80px;
+  height: 30px;
+  margin-left: 700px;
+  margin-top: -270px;
+  font-size: 20px ;
+  font-family: 'inter', sans-serif;
+  background-color: aqua;
+}
+
+.telfon {
+  height: 45px;
+  margin-top: -47px;
+  margin-left: -140px;
+}
+
+.instagram {
+  height: 60px;
+  margin-top: -55px;
+}
+
+.telfon2 {
+  height: 47px;
+  margin-top: -54px;
+  margin-left: 140px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.akhir {
+  background-color: rgb(21, 26, 54);
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+}
+
+.akhir2 {
+  width: 50%;
+  margin-left: -160px;
+  font-family: 'inter',sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+}
+.akhir {
+color: white;
+font-family: 'inter', sans-serif;
+}
